@@ -43,8 +43,8 @@ jobscreen_v2.py        command-line entry point
 ## Quick start
 
 ```bash
-git clone https://github.com/hvgogogo/WeiHang-E2E-JobScreen.git
-cd WeiHang-E2E-JobScreen
+git clone https://github.com/hvgogogo/E2E-JobScreen.git
+cd E2E-JobScreen
 python3 jobscreen_v2.py serve          # http://localhost:8020
 ```
 
