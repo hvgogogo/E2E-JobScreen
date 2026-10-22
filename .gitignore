@@ -1,0 +1,6 @@
+# runtime data: accounts, sessions, saved jobs, caches, backups - never commit
+data/
+__pycache__/
+*.pyc
+.DS_Store
+seed_admin.json

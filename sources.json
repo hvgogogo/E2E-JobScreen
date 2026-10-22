@@ -1,0 +1,197 @@
+{
+  "_comment": "Where job ads come from. varbi = <tenant>.varbi.com; employers = every Platsbanken ad of one organisation number (for universities that are not on Varbi); platsbanken = free-text searches. Admins can switch sources on/off on the Admin page without editing this file.",
+  "varbi": [
+    {
+      "tenant": "ki",
+      "label": "Karolinska Institutet",
+      "city": "Stockholm"
+    },
+    {
+      "tenant": "uu",
+      "label": "Uppsala University",
+      "city": "Uppsala"
+    },
+    {
+      "tenant": "su",
+      "label": "Stockholm University",
+      "city": "Stockholm"
+    },
+    {
+      "tenant": "kth",
+      "label": "KTH",
+      "city": "Stockholm"
+    },
+    {
+      "tenant": "lu",
+      "label": "Lund University",
+      "city": "Lund"
+    },
+    {
+      "tenant": "umu",
+      "label": "Umea University",
+      "city": "Umea"
+    },
+    {
+      "tenant": "regionstockholm",
+      "label": "Region Stockholm",
+      "city": "Stockholm",
+      "enabled": false
+    }
+  ],
+  "employers": [
+    {
+      "orgnr": "2021003096",
+      "label": "Linkoping University",
+      "city": "Linkoping"
+    },
+    {
+      "orgnr": "2021002924",
+      "label": "Orebro University",
+      "city": "Orebro"
+    },
+    {
+      "orgnr": "2021004920",
+      "label": "Malmo University",
+      "city": "Malmo"
+    },
+    {
+      "orgnr": "2021003153",
+      "label": "University of Gothenburg",
+      "city": "Gothenburg"
+    },
+    {
+      "orgnr": "5564795598",
+      "label": "Chalmers",
+      "city": "Gothenburg"
+    },
+    {
+      "orgnr": "2021002817",
+      "label": "SLU",
+      "city": "Uppsala"
+    },
+    {
+      "orgnr": "2021002841",
+      "label": "Lulea University of Technology",
+      "city": "Lulea"
+    },
+    {
+      "orgnr": "2021006271",
+      "label": "Linnaeus University",
+      "city": "Vaxjo"
+    },
+    {
+      "orgnr": "2021004524",
+      "label": "Mid Sweden University",
+      "city": "Sundsvall"
+    },
+    {
+      "orgnr": "2021003120",
+      "label": "Karlstad University",
+      "city": "Karlstad"
+    },
+    {
+      "orgnr": "2021002916",
+      "label": "Malardalen University",
+      "city": "Vasteras"
+    }
+  ],
+  "platsbanken": {
+    "enabled": true,
+    "limit": 100,
+    "queries": [
+      "postdoktor",
+      "postdoc",
+      "forskare",
+      "research scientist",
+      "forskningsingenjör",
+      "research engineer"
+    ]
+  },
+  "eu": {
+    "_comment": "European sources (v2.2).  countries: which countries to collect.  EURAXESS = EU research-jobs portal (researcher profiles R2-R4 = postdoc and above).  EURES = EU public job services (title search in the local language, kept only if the title looks like research).  jobs.ac.uk = UK academic jobs (fixed queries + users' topics).  Sweden is covered by the Swedish sources above.  EURAXESS limits fast paging, so each update fetches countries_per_run countries (the ones refreshed longest ago).",
+    "countries": [
+      "UK",
+      "FR",
+      "ES",
+      "FI",
+      "NO",
+      "DK",
+      "IT"
+    ],
+    "euraxess": {
+      "enabled": true,
+      "max_pages": 60,
+      "profiles": [
+        448,
+        449,
+        450
+      ],
+      "countries_per_run": 3,
+      "page_budget": 70,
+      "topup_every_hours": 6,
+      "refresh_hours": 20
+    },
+    "eures": {
+      "enabled": true,
+      "pages": 2,
+      "keywords": {
+        "FR": [
+          "post-doctorant",
+          "postdoctorant",
+          "postdoc",
+          "chercheur"
+        ],
+        "ES": [
+          "investigador",
+          "posdoctoral",
+          "postdoctoral"
+        ],
+        "FI": [
+          "tutkijatohtori",
+          "tutkija",
+          "postdoc"
+        ],
+        "NO": [
+          "postdoktor",
+          "forsker",
+          "researcher"
+        ],
+        "DK": [
+          "postdoc",
+          "forsker",
+          "adjunkt"
+        ],
+        "IT": [
+          "ricercatore",
+          "assegnista",
+          "postdoc"
+        ]
+      }
+    },
+    "jobsac": {
+      "enabled": true,
+      "pages": 4,
+      "queries": [
+        "postdoctoral",
+        "research associate",
+        "research fellow",
+        "research scientist",
+        "bioinformatics"
+      ],
+      "topic_pages": 1,
+      "max_topics": 25
+    }
+  },
+  "boards": [
+    {
+      "kind": "wpjm",
+      "label": "Life Science Jobs",
+      "base": "https://lifesciencejobs.thebiologybro.com",
+      "site": "https://lifesciencejobs.thebiologybro.com/jobs/",
+      "countries": "europe",
+      "max_pages": 15,
+      "max_age_days": 60,
+      "enabled": true
+    }
+  ]
+}

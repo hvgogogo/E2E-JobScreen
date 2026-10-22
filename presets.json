@@ -1,0 +1,411 @@
+{
+ "_comment": "Pick-lists for the Search profile page (English).  'positions' are the job types users can tick; each has a multilingual title pattern (regex, case-insensitive) so ads in any language are recognised.  If an ad title is one of these types and the user did not tick it, the ad is not shown in New matches.  'absorb': a specific type hides the generic ones it implies.  Edit in the dev copy - installing a new version replaces this file.",
+ "roles": [
+  "Postdoc",
+  "PhD position",
+  "Researcher / scientist",
+  "Research assistant",
+  "Research engineer / specialist",
+  "Bioinformatician",
+  "Data scientist / analyst",
+  "Software engineer / developer",
+  "Lab manager / technician",
+  "Lecturer / assistant professor",
+  "Associate / full professor"
+ ],
+ "fields": [
+  {
+   "id": "bioinfo",
+   "name": "Bioinformatics & computational biology",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Bioinformatician",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "bioinformatics",
+    "computational biology",
+    "single-cell",
+    "spatial transcriptomics",
+    "genomics",
+    "transcriptomics",
+    "rna-seq",
+    "multi-omics",
+    "proteomics",
+    "machine learning",
+    "systems biology"
+   ]
+  },
+  {
+   "id": "molbio",
+   "name": "Molecular & cell biology",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "molecular biology",
+    "cell biology",
+    "crispr",
+    "stem cell",
+    "immunology",
+    "cancer",
+    "neuroscience",
+    "microbiology",
+    "biochemistry",
+    "organoid",
+    "microscopy"
+   ]
+  },
+  {
+   "id": "medicine",
+   "name": "Medicine & public health",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "epidemiology",
+    "clinical research",
+    "public health",
+    "biostatistics",
+    "cardiology",
+    "oncology",
+    "diabetes",
+    "infection",
+    "register-based",
+    "cohort"
+   ]
+  },
+  {
+   "id": "ai",
+   "name": "AI, machine learning & data science",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Data scientist / analyst",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "machine learning",
+    "deep learning",
+    "artificial intelligence",
+    "computer vision",
+    "natural language processing",
+    "reinforcement learning",
+    "statistics",
+    "data science",
+    "optimization",
+    "robotics"
+   ]
+  },
+  {
+   "id": "cs",
+   "name": "Computer science & software",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Software engineer / developer",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "software engineering",
+    "distributed systems",
+    "security",
+    "cybersecurity",
+    "algorithms",
+    "programming languages",
+    "hpc",
+    "cloud",
+    "embedded systems",
+    "human-computer interaction"
+   ]
+  },
+  {
+   "id": "chem",
+   "name": "Chemistry & materials",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "chemistry",
+    "organic chemistry",
+    "catalysis",
+    "materials science",
+    "polymer",
+    "battery",
+    "electrochemistry",
+    "nanotechnology",
+    "spectroscopy",
+    "molecular dynamics"
+   ]
+  },
+  {
+   "id": "physics",
+   "name": "Physics & engineering",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "physics",
+    "quantum",
+    "photonics",
+    "optics",
+    "astrophysics",
+    "electrical engineering",
+    "mechanical engineering",
+    "signal processing",
+    "control",
+    "semiconductor"
+   ]
+  },
+  {
+   "id": "env",
+   "name": "Environment, ecology & agriculture",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Research engineer / specialist"
+   ],
+   "topics": [
+    "ecology",
+    "climate",
+    "environmental science",
+    "forestry",
+    "agriculture",
+    "plant biology",
+    "soil",
+    "biodiversity",
+    "sustainability",
+    "water"
+   ]
+  },
+  {
+   "id": "social",
+   "name": "Social sciences & economics",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Lecturer / assistant professor"
+   ],
+   "topics": [
+    "economics",
+    "sociology",
+    "psychology",
+    "political science",
+    "education",
+    "statistics",
+    "public policy",
+    "migration",
+    "gender"
+   ]
+  },
+  {
+   "id": "humanities",
+   "name": "Humanities",
+   "roles": [
+    "Postdoc",
+    "Researcher / scientist",
+    "Lecturer / assistant professor"
+   ],
+   "topics": [
+    "history",
+    "linguistics",
+    "philosophy",
+    "literature",
+    "archaeology",
+    "religion",
+    "media",
+    "digital humanities",
+    "art",
+    "musicology"
+   ]
+  }
+ ],
+ "funding_catalog": [
+  {
+   "name": "MSCA Postdoctoral Fellowships 2027 (European PF)",
+   "funder": "European Commission",
+   "deadline": "2027-09-09",
+   "estimated": true,
+   "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+   "notes": "deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "EMBO Postdoctoral Fellowship",
+   "funder": "EMBO",
+   "deadline": "2027-01-23",
+   "estimated": true,
+   "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
+   "notes": "deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "HFSP Long-Term Fellowship",
+   "funder": "Human Frontier Science Program",
+   "deadline": "2027-05-15",
+   "estimated": true,
+   "url": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+   "notes": "deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "Wenner-Gren Foundations postdoc scholarship (to Sweden)",
+   "funder": "Wenner-Gren Foundations",
+   "deadline": "2027-01-31",
+   "estimated": true,
+   "url": "https://www.swgc.org/en/",
+   "notes": "deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "Knut & Alice Wallenberg - international postdoc programme",
+   "funder": "KAW via host university",
+   "deadline": "2027-03-01",
+   "estimated": true,
+   "url": "https://kaw.wallenberg.org/en/for-researchers",
+   "notes": "deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "SSMF postdoctoral grant (Svenska Sällskapet för Medicinsk Forskning)",
+   "funder": "SSMF",
+   "deadline": "2026-09-15",
+   "estimated": true,
+   "url": "https://www.ssmf.se/",
+   "notes": "deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "VR International postdoc - medicine & health",
+   "funder": "Swedish Research Council",
+   "deadline": "2027-04-15",
+   "estimated": true,
+   "url": "https://www.vr.se/english/applying-for-funding/calls.html",
+   "notes": "deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "ERC Starting Grant 2027",
+   "funder": "European Research Council",
+   "deadline": "2026-10-14",
+   "estimated": true,
+   "url": "https://erc.europa.eu/apply-grant/starting-grant",
+   "notes": "2-7 years after PhD; deadline is an estimate - check the funder's page"
+  },
+  {
+   "name": "EMBO Postdoctoral Fellowships",
+   "funder": "EMBO",
+   "deadline": "2027-01-23",
+   "estimated": true,
+   "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
+   "notes": "rolling, decisions twice a year; check the funder's page"
+  },
+  {
+   "name": "Wellcome Early-Career Awards",
+   "funder": "Wellcome (UK)",
+   "deadline": "2027-02-17",
+   "estimated": true,
+   "url": "https://wellcome.org/research-funding/schemes/early-career-awards",
+   "notes": "UK/Ireland host; deadline is an estimate"
+  },
+  {
+   "name": "Novo Nordisk Foundation postdoc fellowships",
+   "funder": "Novo Nordisk Foundation (DK)",
+   "deadline": "2027-03-01",
+   "estimated": true,
+   "url": "https://novonordiskfonden.dk/en/grants/",
+   "notes": "Danish host; several calls - check the funder's page"
+  },
+  {
+   "name": "Research Council of Finland - postdoctoral researcher",
+   "funder": "Research Council of Finland",
+   "deadline": "2027-09-15",
+   "estimated": true,
+   "url": "https://www.aka.fi/en/research-funding/",
+   "notes": "September call; deadline is an estimate"
+  }
+ ],
+ "positions": [
+  {
+   "id": "postdoc",
+   "label": "Postdoc",
+   "pattern": "post[\\s\\-]?doc|postdoctora|post[\\s\\-]?doktor|post[\\s\\-]?doctorant|posdoctora|posdoc|tutkijatohtori|assegn(o|ista|i) di ricerca|assegnista|juan de la cierva|marie curie fellow|research associate|wissenschaftliche[rn]? mitarbeiter.{0,30}postdoc"
+  },
+  {
+   "id": "phd",
+   "label": "PhD position",
+   "pattern": "ph\\.?\\s?d\\.?[\\s\\-]research fellow|(?<!post)(?<!post-)(?<!post )doctoral research fellow|ph\\.?\\s?d\\.?[\\s\\-]?(student|position|candidate|fellow|scholarship|studentship|stipend|project)|doktorand|(?<!post)(?<!post-)(?<!post )doctoral (student|candidate|position|researcher|fellow)|(?<!post)(?<!post-)doctorant|contrat doctoral|väitöskirjatutkija|dottorand|dottorato|predoctoral|pre-doctoral|stipendiat|(?<!post)doctoral studentship|early stage researcher|\\besr\\b"
+  },
+  {
+   "id": "researcher",
+   "label": "Researcher / scientist",
+   "pattern": "researcher|research (scientist|fellow)|(?<!data )scientist|forskare|forsker|chercheu|investigador|ricercat|tutkija|wissenschaftler|onderzoeker"
+  },
+  {
+   "id": "research_assistant",
+   "label": "Research assistant",
+   "pattern": "research assistant|forskningsassistent|assistant de recherche|ayudante de investigación|amanuens|tutkimusavustaja|borsa di ricerca|borsista"
+  },
+  {
+   "id": "research_engineer",
+   "label": "Research engineer / specialist",
+   "pattern": "research (engineer|specialist|software engineer)|forskningsingenjör|forskningsspecialist|ingénieur (de recherche|d'études|d’études)|ingeniero de investigación|tecnologo|forskningstekniker"
+  },
+  {
+   "id": "bioinformatician",
+   "label": "Bioinformatician",
+   "pattern": "bioinformatician|bioinformatiker|bioinformaticien|bioinformático|bioinformatico|bioinformatics (analyst|engineer|specialist|scientist)"
+  },
+  {
+   "id": "data_scientist",
+   "label": "Data scientist / analyst",
+   "pattern": "data scientist|data analyst|data engineer|dataanalytiker|statistician|biostatistician|analyst|analytiker"
+  },
+  {
+   "id": "software_engineer",
+   "label": "Software engineer / developer",
+   "pattern": "(?<!research )software (engineer|developer)|developer|programmer|utvecklare|systemutvecklare|devops"
+  },
+  {
+   "id": "lab",
+   "label": "Lab manager / technician",
+   "pattern": "lab(oratory)? (manager|technician|engineer|assistant|coordinator)|technician|biomedical analyst|biomedicinsk analytiker|laborant|technicien|técnico de laboratorio|tecnico di laboratorio"
+  },
+  {
+   "id": "lecturer",
+   "label": "Lecturer / assistant professor",
+   "pattern": "lecturer|assistant professor|tenure[\\s\\-]?track|universitetslektor|biträdande lektor|\\blektor\\b|\\badjunkt\\b|maître de conférences|maitre de conferences|profesor ayudante|ricercatore a tempo determinato|\\brtd\\b|yliopistonlehtori|apulaisprofessori|førsteamanuensis|tenure"
+  },
+  {
+   "id": "professor",
+   "label": "Associate / full professor",
+   "pattern": "associate professor|(?<!assistant )(?<!adjunct )(?<!adjungerad )professor|professeur|(?<!ayudante )catedrático|professore (ordinario|associato)|profesor titular|docent\\b|reader in"
+  }
+ ],
+ "absorb": {
+  "postdoc": [
+   "researcher",
+   "research_assistant"
+  ],
+  "phd": [
+   "researcher",
+   "research_assistant"
+  ],
+  "lecturer": [
+   "researcher",
+   "professor"
+  ],
+  "professor": [
+   "researcher"
+  ],
+  "research_engineer": [
+   "researcher",
+   "software_engineer"
+  ],
+  "bioinformatician": [
+   "data_scientist"
+  ]
+ }
+}

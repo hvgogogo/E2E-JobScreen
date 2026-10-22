@@ -1,0 +1,103 @@
+{
+  "_comment": "Job Screen v2 site settings. Restart the app after editing. Sources live in sources.json, keyword pick-lists in presets.json. Accounts, registration and site-wide links are managed on the Admin page.",
+  "app_name": "Job Screen",
+  "port": 8020,
+  "host": "127.0.0.1",
+  "public_tunnel": true,
+  "owner_account": "",
+  "job_hunting_root": "../..",
+  "auto_update_hours": 24,
+  "prune_after_days": 60,
+  "backups_keep": 14,
+  "registration_open": true,
+  "invite_code": "",
+  "trust_forwarded_for": false,
+  "default_min_score": 40,
+  "default_exclude": [
+    "timanställning",
+    "hourly paid",
+    "internship",
+    "praktik"
+  ],
+  "limits": {
+    "max_users": 1000,
+    "max_manual_jobs": 300,
+    "max_todos": 300,
+    "max_funding": 100,
+    "max_text": 4000,
+    "max_keywords": 40,
+    "max_queries_per_user": 8,
+    "max_total_queries": 80,
+    "max_links": 30,
+    "update_min_interval_min": 60,
+    "register_per_ip_per_day": 5,
+    "login_fail_limit": 10,
+    "body_max_kb": 256
+  },
+  "flags": {
+    "swedish (is )?(required|mandatory|essential)|fluent in swedish|svenska (krävs|i tal och skrift)|behärska svenska": "Swedish required",
+    "(norwegian|danish|finnish|french|italian|spanish) (is )?(required|mandatory|essential)|fluent in (norwegian|danish|finnish|french|italian|spanish)|norsk (er påkrevd|muntlig og skriftlig)|dansk (er et krav|på højt niveau)|suomen kielen|maîtrise du français|français courant|conoscenza della lingua italiana|dominio del (español|castellano)": "local language required",
+    "scholarship|stipend(?!iat)": "scholarship (not employment)",
+    "(no more than|not more than|within|maximum of|högst|max\\.?) (three|3|tre) (years|år)": "PhD <= 3 y rule",
+    "(no more than|not more than|within|maximum of|högst|max\\.?) (two|2|två) (years|år)": "PhD <= 2 y rule",
+    "right to work in the uk|visa sponsorship (is )?not": "UK work-visa note"
+  },
+  "default_links": [
+    {
+      "name": "LinkedIn (Europe)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords={q}&location=Europe&f_TPR=r604800",
+      "note": "jobs from the last 7 days"
+    },
+    {
+      "name": "EURAXESS",
+      "url": "https://euraxess.ec.europa.eu/jobs/search?keywords={q}",
+      "note": "EU research jobs"
+    },
+    {
+      "name": "AcademicPositions",
+      "url": "https://academicpositions.com/find-jobs?search={q}",
+      "note": ""
+    },
+    {
+      "name": "Nature Careers",
+      "url": "https://www.nature.com/naturecareers/jobs/search?keywords={q}&location=Europe",
+      "note": ""
+    },
+    {
+      "name": "SciLifeLab careers",
+      "url": "https://www.scilifelab.se/careers/",
+      "note": "life science"
+    },
+    {
+      "name": "EMBL jobs",
+      "url": "https://www.embl.org/jobs/",
+      "note": "life science"
+    },
+    {
+      "name": "Chalmers vacancies",
+      "url": "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/",
+      "note": "also in the job list via Platsbanken"
+    },
+    {
+      "name": "University of Gothenburg",
+      "url": "https://www.gu.se/en/about-the-university/job-opportunities",
+      "note": "also in the job list via Platsbanken"
+    },
+    {
+      "name": "Jobbnorge (Norway)",
+      "url": "https://www.jobbnorge.no/en/available-jobs?searchText={q}",
+      "note": "Norwegian universities"
+    },
+    {
+      "name": "Times Higher Education jobs",
+      "url": "https://www.timeshighereducation.com/unijobs/listings/?keywords={q}",
+      "note": "Europe-wide academic jobs"
+    },
+    {
+      "name": "Academic Transfer (NL)",
+      "url": "https://www.academictransfer.com/en/jobs/?q={q}",
+      "note": "Dutch universities"
+    }
+  ],
+  "update_on_start_after_hours": 12
+}
